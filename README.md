@@ -51,8 +51,7 @@ This service represents the customer or user interface side. It subscribes to de
 
 ## 🧪 Getting Started
 
-**1. Start Kafka Broker & Zookeeper**
-   ```bash
+**Start Kafka Broker & Zookeeper**
    docker-compose up -d zookeeper kafka
 
 **2. Build and Run Services**
