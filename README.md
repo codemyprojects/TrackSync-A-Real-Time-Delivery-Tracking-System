@@ -63,13 +63,13 @@ This service represents the customer or user interface side. It subscribes to de
 ./mvnw spring-boot:run
 
 **3. Verify Kafka Messaging**
-Delivery service should push updates.
-End user service should log/consume updates.
+      Delivery service should push updates.
+      End user service should log/consume updates.
 
-📝 Future Enhancements
-Add WebSocket or REST API for frontend integration
-Visual tracking dashboard (e.g., map UI)
-Multi-topic support (e.g., order status, driver ETA)
-Authentication and secure messaging
+**📝 Future Enhancements**
+      Add WebSocket or REST API for frontend integration
+      Visual tracking dashboard (e.g., map UI)
+      Multi-topic support (e.g., order status, driver ETA)
+      Authentication and secure messaging
 
 
