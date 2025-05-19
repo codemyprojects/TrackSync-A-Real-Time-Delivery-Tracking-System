@@ -27,13 +27,6 @@ This service represents the customer or user interface side. It subscribes to de
 - Acts as a **Kafka Consumer**.
 - Subscribes to the `delivery.location.updates` topic to get continuous updates.
 
-## 🔄 Kafka-Based Communication Architecture
-
-+-------------------+ Kafka Topic +-------------------+
-| Delivery Service | --> delivery.location. | End User Service |
-| (Producer) | .updates | (Consumer) |
-+-------------------+ +-------------------+
-
 - **Topic Used:** `delivery.location.updates`
 - **Broker:** Assumes Kafka is running locally or remotely and reachable by both services.
 - **Format:** Messages can be JSON or POJO serialized using Spring Kafka.
